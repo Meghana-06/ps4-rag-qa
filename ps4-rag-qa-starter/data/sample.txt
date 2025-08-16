@@ -1,0 +1,3 @@
+This repository demonstrates a simple Retrieval Augmented Generation (RAG) pipeline.
+It chunks documents, embeds them with sentence-transformers, indexes in FAISS,
+retrieves relevant chunks for a question, and uses a text-to-text model (FLAN-T5) to generate an answer.
